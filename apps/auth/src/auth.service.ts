@@ -15,6 +15,6 @@ export class AuthService {
   }
 
   async postUser() {
-    return this.userRepository.save({ name: 'Barry' });
+    return this.userRepository.save({ name: 'Barry ' });
   }
 }
